@@ -1,0 +1,5 @@
+# AMIRUL CUKOR MOD ROUTER
+# No third-party packages are required. The application uses only the Python 3
+# standard library (hashlib, argparse, json, re, math, ctypes, unittest).
+#
+# Requires: Python 3.8 or newer (tested on Python 3.11, Windows 11).

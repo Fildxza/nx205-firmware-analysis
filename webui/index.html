@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fildza · NX205 Connectivity &amp; Firmware Studio</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="shell">
+
+  <!-- Brand header -->
+  <header class="masthead">
+    <div class="masthead-inner">
+      <div class="brand">
+        <span class="monogram" aria-hidden="true">
+          <svg viewBox="0 0 40 40"><path d="M20 3l15 8.5v17L20 37 5 28.5v-17z"/><path class="m-f" d="M15 13h11M15 20h8M15 13v15"/></svg>
+        </span>
+        <span class="brand-text">
+          <span class="wordmark">FILDZA</span>
+          <span class="brand-desc">NX205 Connectivity &amp; Firmware Studio</span>
+        </span>
+      </div>
+      <div class="device-id">
+        <span class="device-name" id="deviceName">—</span>
+        <span class="device-meta"><span id="deviceHw">—</span> · gateway <span class="mono" id="deviceGw">—</span></span>
+      </div>
+    </div>
+    <nav class="tabs" id="nav" aria-label="Primary">
+      <button class="tab active" data-view="overview">Overview</button>
+      <button class="tab" data-view="diagnostics">Network</button>
+      <button class="tab" data-view="firmware">Firmware Studio</button>
+      <button class="tab" data-view="evidence">Evidence</button>
+      <button class="tab" data-view="settings">Settings</button>
+    </nav>
+  </header>
+
+  <!-- Content -->
+  <main class="content">
+    <div class="view-head">
+      <p class="eyebrow" id="viewEyebrow">Studio</p>
+      <h1 class="view-title" id="viewTitle">Overview</h1>
+      <p class="view-sub" id="viewSub"></p>
+    </div>
+
+    <section class="view" id="view-overview"></section>
+    <section class="view is-hidden" id="view-diagnostics"></section>
+    <section class="view is-hidden" id="view-firmware"></section>
+    <section class="view is-hidden" id="view-evidence"></section>
+    <section class="view is-hidden" id="view-settings"></section>
+  </main>
+
+  <footer class="colophon">
+    <span id="safetyLine"></span>
+    <span class="colophon-dev">Fildza Mod Router · <span id="footVersion">v—</span></span>
+  </footer>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

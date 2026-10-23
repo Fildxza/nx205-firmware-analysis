@@ -1,0 +1,3 @@
+{
+  "_comment": "Map an exact firmware filename to its OFFICIAL SHA-256 from TP-Link's download page. This file ships EMPTY of real hashes on purpose - the tool will not invent an 'official' hash. Add a verified entry below to enable authenticity checking, e.g.: \"Archer_NX205_1.0.0_3.1.0_Build_250731_Rel.58442n_UP_ALL_A03_2025-07-31_16.30.09.bin\": \"<paste-official-sha256-here>\""
+}

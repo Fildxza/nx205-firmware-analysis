@@ -1,0 +1,26 @@
+# --- Vendor firmware package (not redistributed) ---------------------------
+# TP-Link's own .bin / PDFs are proprietary and ~142MB (over GitHub's 100MB
+# limit anyway). Download it yourself from TP-Link's official support page
+# and drop the extracted folder here — see README "Getting the firmware".
+Archer_NX205*/
+
+# --- Python ------------------------------------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# --- Generated / runtime artifacts (regenerate on next run) -----------------
+dashboard.html
+data/evidence_log.json
+data/connectivity_log.json
+data/settings.json
+
+# --- Personal diagnostic data (your home network IPs & timestamps) ----------
+backups/
+
+# --- Editor / OS ---------------------------------------------------------
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
