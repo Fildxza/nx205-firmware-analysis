@@ -148,7 +148,7 @@ tool at your own copy:
 ## Setup & launch (Windows)
 
 ```powershell
-git clone https://github.com/Fildxza/nx205-firmware-analysis.git
+git clone https://github.com/fxfanxy/nx205-firmware-analysis.git
 cd nx205-firmware-analysis
 python workstation.py
 ```
@@ -258,7 +258,7 @@ reference" until I pick one. Ask if you want to reuse something specific.
 
 <div align="center">
 
-*Built by [Fildza](https://github.com/Fildxza) — a personal project, not a
+*Built by [Fildza](https://github.com/fxfanxy) — a personal project, not a
 product.*
 
 </div>
