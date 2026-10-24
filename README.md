@@ -253,8 +253,9 @@ packaging up for non-technical end users.
 
 ## License
 
-No license file yet — treat this as "all rights reserved, source visible for
-reference" until I pick one. Ask if you want to reuse something specific.
+[MIT](LICENSE) — the code's free to reuse, but remember the vendor firmware
+itself is not included here and isn't mine to license (see
+[Getting the firmware](#getting-the-firmware) above).
 
 <div align="center">
 
